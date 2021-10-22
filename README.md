@@ -12,6 +12,9 @@ Given a level (represented by a `String` that consists of only `_` and `^` chara
 
 Note that the cases where a level starts or ends with a `^` are (clearly) not playable.
 
+Here is an animation that approximates the game play:
+![](ppt_animated.gitf)
+
 ### Task 2
 
 Suppose a player starts with energy `E` (`E` units) and moves `1`, `2` and `3` consume 1, 2 and 3 units of energy, respectively. Each `0` move allows a player to regain one unit of energy. However, a `0` move can be played only if the current energy is less than 3 units. Moreover, a player's energy should never fall below 0 units.
