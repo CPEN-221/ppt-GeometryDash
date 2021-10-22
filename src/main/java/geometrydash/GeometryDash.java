@@ -19,11 +19,13 @@ public class GeometryDash {
      * with the target resting energy
      * @param level is not null and not empty
      * @param possiblePlays is not null
-     * @param targetRestingEnergy
+     * @param startingEnergy the energy at the start of the level
+     * @param targetRestingEnergy the minimum energy to end the level at
      * @return a subset of {@code possiblePlays} which complete the level with
      * {@code targetRestingEnergy} units of energy remaining
      */
-    public static Set<String> successfulPlays(String level, Set<String> possiblePlays, int targetRestingEnergy) {
+    public static Set<String> successfulPlays(String level, Set<String> possiblePlays,
+                                              int startingEnergy, int targetRestingEnergy) {
         // TODO: Implement this method
         return null;
     }
@@ -31,11 +33,12 @@ public class GeometryDash {
     /**
      * Returns the shortest play that completes the given level
      * @param level is not null and not empty
-     * @param targetRestingEnergy
+     * @param startingEnergy the energy at the start of the level
+     * @param targetRestingEnergy the minimum energy to end the level at
      * @return the shortest play that allows a player to complete the given level
      * @throws UnplayableLevelException if no play can complete the level
      */
-    public static String shortestPlay(String level, int targetRestingEnergy)
+    public static String shortestPlay(String level, int startingEnergy, int targetRestingEnergy)
             throws UnplayableLevelException {
         // TODO: Implement this method
         return null;
@@ -44,11 +47,12 @@ public class GeometryDash {
     /**
      * Returns the total number of plays which allow a player to complete the given level
      * @param level is not null and not empty
-     * @param targetRestingEnergy
+     * @param startingEnergy the energy at the start of the level
+     * @param targetRestingEnergy the minimum energy to end the level at
      * @return the total number of plays which allow a player to complete the given level
      * with target resting energy {@code targetRestingEnergy}
      */
-    public static int numberOfPlays(String level, int targetRestingEnergy) {
+    public static int numberOfPlays(String level, int startingEnergy, int targetRestingEnergy) {
         // TODO: Implement this method
         return -1;
     }

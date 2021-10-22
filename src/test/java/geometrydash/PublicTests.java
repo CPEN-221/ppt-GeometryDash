@@ -37,15 +37,15 @@ public class PublicTests {
         successfulPlays.add("3112");
         successfulPlays.add("313");
 
-        assertEquals(successfulPlays, GeometryDash.successfulPlays(level, possiblePlays, -7));
-        assertTrue(GeometryDash.successfulPlays(level, possiblePlays, 0).isEmpty());
+        assertEquals(successfulPlays, GeometryDash.successfulPlays(level, possiblePlays, 0, -7));
+        assertTrue(GeometryDash.successfulPlays(level, possiblePlays, 0, 0).isEmpty());
     }
 
     @Test
     public void test_shortestPlay() {
         String level = "_____";
         try {
-            assertEquals(GeometryDash.shortestPlay(level, -4).length(), 3);
+            assertEquals(GeometryDash.shortestPlay(level, 0,-4).length(), 3);
         } catch(UnplayableLevelException e) {
             fail();
         }
@@ -54,6 +54,6 @@ public class PublicTests {
     @Test
     public void test_numberOfPlays() {
         String level = "_^_^_^_^_^_^_";
-        assertEquals(GeometryDash.numberOfPlays(level, -11), 6);
+        assertEquals(GeometryDash.numberOfPlays(level, 0,-11), 6);
     }
 }
