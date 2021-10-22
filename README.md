@@ -22,6 +22,8 @@ Given a set of possible plays, a starting energy `E` and a target resting energy
 
 For the special `*` tiles, if the teleportation will place one outside the level then landing on such a tile would not be a successful play.
 
+You can also assume that the starting energy and the target resting energy will be at least 0.
+
 ### Task 3
 
 Task 3 builds on the requirements outlined in Task 2.
