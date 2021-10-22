@@ -12,8 +12,7 @@ Given a level (represented by a `String` that consists of only `_` and `^` chara
 
 Note that the cases where a level starts or ends with a `^` are (clearly) not playable.
 
-Here is an animation that approximates the game play:
-![Animation](ppt_animated.gitf)
+Here is an [animation](ppt_animated.gif) that approximates the game play.
 
 ### Task 2
 
