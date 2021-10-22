@@ -20,7 +20,7 @@ Here is an [animation](ppt_animated.gif) that approximates the game play.
 
 Suppose a player starts with energy `E` (`E` units) and moves `1`, `2` and `3` consume 1, 2 and 3 units of energy, respectively. Each `0` move allows a player to regain one unit of energy. However, a `0` move can be played only if the current energy is less than 3 units. Moreover, a player's energy should never fall below 0 units.
 
-For this task, a level may also have a special tile, denoted `*`, that teleports a player 4 tiles ahead for no extra energy cost (if tile `i` is a `*` then a player that lands on this tile would immediate be teleported to tile `i+4`).
+For this task, a level may also have a special tile, denoted `*`, that teleports a player 4 tiles ahead for no extra energy cost (if tile `i` is a `*` then a player that lands on this tile would immediately be teleported to tile `i+4`).
 
 Given a set of possible plays, a starting energy `E` and a target resting energy `Er`, return the subset of plays that will allow a player to successfully complete the level with `Er` or more units of energy remaining. Once a player reaches tile `N-1` then no further moves are possible; a player cannot keep playing the `0` move at tile `N-1` to reach energy `Er`.
 
