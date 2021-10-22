@@ -7,7 +7,7 @@ public class GeometryDash {
      * Returns whether the given level can be completed using the given play.
      * @param level is not null and not empty
      * @param play is not null and not empty
-     * @return true if the play is completes the level and false otherwise
+     * @return true if the play completes the level and false otherwise
      */
     public static boolean isSuccessfulPlay(String level, String play) {
         // TODO: Implement this method
@@ -35,7 +35,8 @@ public class GeometryDash {
      * @return the shortest play that allows a player to complete the given level
      * @throws UnplayableLevelException if no play can complete the level
      */
-    public static String shortestPlay(String level, int targetRestingEnergy) throws UnplayableLevelException {
+    public static String shortestPlay(String level, int targetRestingEnergy)
+            throws UnplayableLevelException {
         // TODO: Implement this method
         return null;
     }

@@ -1,8 +1,8 @@
 ## Geometry Dash
 
-You are designing a simplified version of the popular game Geometry Dash. The game involves moving from the start of a level to the end of the level. Each level involves solid tiles denoted by `_` that are safe to step on. And then there are some times that are dangerous, denoted by `^`. Each level consists on `N` tiles numbered `0` through `N-1` and the goal is to reach tile `N-1` without stepping on any of the dangerous tiles.
+You are designing a simplified version of the popular game Geometry Dash. The game involves moving from the start of a level to the end of the level. Each level involves solid tiles denoted by `_` that are safe to step on. And then there are some tiles that are dangerous, denoted by `^`. Each level consists on `N` tiles numbered `0` through `N-1` and the goal is to reach tile `N-1` without stepping on any of the dangerous tiles.
 
-At each time unit, a player can stay on the same time (denoted by `0`), move to the immediate next tile (such a move is denoted by a `1`), hop two tiles (such a move is denoted by a `2` and the player moves from tile `i` to tile `i+2`) or jump three tiles (such a move is denoted by a `3` and the player moves from tile `i` to `i+3`).
+At each time unit, a player can stay on the same tile (denoted by `0`), move to the immediate next tile (such a move is denoted by a `1`), hop two tiles (such a move is denoted by a `2` and the player moves from tile `i` to tile `i+2`) or jump three tiles (such a move is denoted by a `3` and the player moves from tile `i` to `i+3`).
 
 To complete a level, a player starts on tile `0` and must end on tile `N-1`.
 
