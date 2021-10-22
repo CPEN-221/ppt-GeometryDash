@@ -66,5 +66,6 @@ By submitting your work to Github you agree to the following:
 
 + You did not consult with any other person for the purpose of completing this activity.
 + You did not aid any other person in the class in completing their activity.
++ You are submitting work from your own GitHub account.
 + If you consulted any external sources, such as resources available on the World Wide Web, in completing the examination then you have cited the source. (You do not need to cite class notes or Sun/Oracle Java documentation.)
 + You are not aware of any infractions of the honour code for this activity.
