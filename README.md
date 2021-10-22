@@ -6,6 +6,8 @@ At each time unit, a player can stay on the same tile (denoted by `0`), move to 
 
 To complete a level, a player starts on tile `0` and must end on tile `N-1`.
 
+> You have been provided skeleton code and a few test cases to help you get started. You should not change the method signatures of any of the methods that you have been asked to implement.
+
 ### Task 1
 
 Given a level (represented by a `String` that consists of only `_` and `^` characters) and a play (also represented by a `String` that represents the moves a player makes, and consists only of the characters `0`, `1`, `2` and `3`), determine if the play is successful (the player completes the level) or not.
