@@ -38,7 +38,7 @@ public class PublicTests {
         successfulPlays.add("3112");
         successfulPlays.add("313");
 
-        assertEquals(successfulPlays, GeometryDash.successfulPlays(level, possiblePlays, 0, -7));
+        assertEquals(successfulPlays, GeometryDash.successfulPlays(level, possiblePlays, 7, 0));
         assertTrue(GeometryDash.successfulPlays(level, possiblePlays, 0, 0).isEmpty());
     }
 

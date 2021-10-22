@@ -16,6 +16,8 @@ Note that the cases where a level starts or ends with a `^` are (clearly) not pl
 
 Here is an [animation](ppt_animated.gif) that approximates the game play.
 
+> For this task, you will implement the method `GeometryDash.isSuccessfulPlay`.
+
 ### Task 2
 
 Suppose a player starts with energy `E` (`E` units) and moves `1`, `2` and `3` consume 1, 2 and 3 units of energy, respectively. Each `0` move allows a player to regain one unit of energy. However, a `0` move can be played only if the current energy is less than 3 units. Moreover, a player's energy should never fall below 0 units.
@@ -28,6 +30,9 @@ For the special `*` tiles, if the teleportation will place one outside the level
 
 You can also assume that the starting energy and the target resting energy will be at least 0.
 
+> For this task, you will implement the method `GeometryDash.successfulPlays`.
+
+
 ### Task 3
 
 Task 3 builds on the requirements outlined in Task 2.
@@ -36,6 +41,8 @@ Task 3 builds on the requirements outlined in Task 2.
 2.   Determine the number of plays (not just the shortest play) that would allow a player to complete a given level with a target resting energy `Er` or higher.
 
 For Task 3, your implementation must be reasonably fast. For instance `test_shortestPlay2()` should not take more than 8 seconds to complete on a machine with 2GB RAM and a 1GHz CPU.
+
+> For this task, you should implement **both**  `GeometryDash.shortestPlay` and `GeometryDash.numberOfPlays`.
 
 ## Submission Instructions
 
